@@ -1,0 +1,19 @@
+{
+  "name": "messagepack-example",
+  "version": "1.0.0",
+  "description": "MessagePack is an efficient binary serialization format that is faster and smaller than JSON.",
+  "author": "Anthony Hastings <ar.hastings@gmail.com> (https://antwan1986.github.io/)",
+  "license": "MIT",
+  "main": "server.mjs",
+  "module": "server.mjs",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@msgpack/msgpack": "3.0.0-beta2",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "run-server": "node server.mjs",
+    "run-client": "node client.mjs"
+  }
+}
